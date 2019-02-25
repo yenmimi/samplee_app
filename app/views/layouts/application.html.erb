@@ -5,13 +5,19 @@
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <%= render "layouts/shim" %>
   </head>
   <body>
-    Language:
+    <%= render "layouts/header" %>
 
-    <%= link_to "English", locale: "en" %>
-    <%= link_to "Vietnamese", locale: "vi" %>
-    <%= yield %>
-
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+      <div class="language">
+        Language:
+        <%= link_to "English", locale: "en" %>
+        <%= link_to "Vietnamese", locale: "vi" %>
+      </div>
+    </div>
   </body>
 </html>

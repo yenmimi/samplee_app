@@ -1,7 +1,18 @@
 vi:
+  page_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
+    header:
+      home: "Trang chủ"
+      help: "Giúp đỡ"
+      log_in: "Đăng nhập"
+    footer:
+      param: '<small>Hướng dẫn về <a href="https://www.railstutorial.org/">Ruby on Rails</a>
+      của <a href="http://www.michaelhartl.com/">Michael Hartl</a></small>'
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
   static_pages:
     help:
       title: "Trợ giúp"
@@ -11,11 +22,18 @@ vi:
         <a href="https://www.railstutorial.org/book"><em>sách Hướng dẫn về Ruby on Rails</em>
         book</a>.</p>'
     home:
+      signup: "Đăng ký ngay!"
       title_a: "Trang chu"
       title: "Ứng dụng đầu tiên"
       content: '</p>Đây là trang chủ cho
         <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
         ứng dụng mẫu.</p>'
+    contact:
+      title: "Liên hệ"
+      content: '<p>
+        Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
+        <a href="https://www.railstutorial.org/contact">trang liên hệ</a>.
+      </p>'
     about:
       title: "Về chúng tôi"
       content: '<p>
@@ -27,3 +45,7 @@ vi:
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là ứng dụng mẫu cho hướng dẫn.
       </p>'
+  users:
+    new:
+      title: "Đăng ký"     
+      content: "Đây sẽ là một trang đăng ký cho người dùng mới."
