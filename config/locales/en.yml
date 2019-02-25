@@ -11,6 +11,7 @@ en:
         <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
         book</a>.</p>'
     home:
+      title_a: "Home"
       title: "Sample App"
       content: 'This is the home page for the
       <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>

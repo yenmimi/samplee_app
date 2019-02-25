@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title><%= t ".title_page" %></title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  Language:
+  <head>
+    <title><%= t ".title_page" %> | <%= full_title yield :title %></title>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    Language:
 
-  <%= link_to "English", locale: "en" %>
-  <%= link_to "Vietnamese", locale: "vi" %>
-  <%= yield %>
+    <%= link_to "English", locale: "en" %>
+    <%= link_to "Vietnamese", locale: "vi" %>
+    <%= yield %>
 
-</body>
+  </body>
 </html>
