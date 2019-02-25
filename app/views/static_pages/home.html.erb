@@ -1,3 +1,10 @@
-<% provide :title, t(".title_a") %>
-<h1><%= t ".title" %></h1>
-<%= raw t ".content" %>
+
+<div class="center jumbotron">
+  <% provide :title, t(".title_a") %>
+  <h1><%= t ".title" %></h1>
+  <%= raw t ".content" %>
+  <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+'http://rubyonrails.org/' %>
