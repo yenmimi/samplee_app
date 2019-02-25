@@ -11,6 +11,7 @@ vi:
         <a href="https://www.railstutorial.org/book"><em>sách Hướng dẫn về Ruby on Rails</em>
         book</a>.</p>'
     home:
+      title_a: "Trang chu"
       title: "Ứng dụng đầu tiên"
       content: '</p>Đây là trang chủ cho
         <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
