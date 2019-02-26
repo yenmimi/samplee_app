@@ -1,4 +1,6 @@
 en:
+  fail_find: "Can't find the users"
+  success: "Welcome to Sample App"
   page_title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -49,3 +51,9 @@ en:
     new:
       title: "Sign up"  
       content: "This will be a signup page for new users."
+    form:
+      create_accout: "Create accout"
+      confirm: "Confirmation Password"
+  shared:
+    error_messages:
+      param_1: "The form contains"
