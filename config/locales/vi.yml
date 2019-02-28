@@ -1,4 +1,6 @@
 vi:
+  fail_find: "Không thể tìm thấy thấy người dùng"
+  success: "Thành công"
   page_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   layouts:
     application:
@@ -49,3 +51,9 @@ vi:
     new:
       title: "Đăng ký"     
       content: "Đây sẽ là một trang đăng ký cho người dùng mới."
+    form:
+      create_accout: "Tạo tài khoản"
+      confirm: "Xác nhận Password"
+  shared:
+    error_messages:
+      param_1: "Biểu mẫu có chứa"

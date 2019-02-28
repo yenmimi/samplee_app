@@ -2,3 +2,5 @@ user_validates:
   max_leght_name: 50
   min_leght_pass: 6
   max_leght_email: 255
+user_gravatar:
+  size: 80
