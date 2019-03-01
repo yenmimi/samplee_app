@@ -1,7 +1,8 @@
 vi:
   fail_find: "Không thể tìm thấy thấy người dùng"
-  success: "Thành công"
+  success: "Tạo tài khoản thành công"
   page_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  danger: "Email/mật khẩu không hợp lệ"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
@@ -9,6 +10,11 @@ vi:
       home: "Trang chủ"
       help: "Giúp đỡ"
       log_in: "Đăng nhập"
+      accout: "Tài khoản"
+      users: "Người dùng"
+      profile: "Thông tin"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
     footer:
       param: '<small>Hướng dẫn về <a href="https://www.railstutorial.org/">Ruby on Rails</a>
       của <a href="http://www.michaelhartl.com/">Michael Hartl</a></small>'
@@ -57,3 +63,11 @@ vi:
   shared:
     error_messages:
       param_1: "Biểu mẫu có chứa"
+      create_accout: "Tạo tài khoản"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      sign_up: "Đăng ký"
+      new_user: "Bạn chưa có tài khoản?"
+    form:
+      log_in: "Đăng nhập"

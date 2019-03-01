@@ -2,6 +2,7 @@ en:
   fail_find: "Can't find the users"
   success: "Welcome to Sample App"
   page_title: "Ruby on Rails Tutorial Sample App"
+  danger: "Invalid email/password combination"
   layouts:
     application:
       title_page: "Sample APP"
@@ -9,6 +10,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      accout: "Acount"
+      users: "Users"
+      profile: "Profile"
+      settings: "Setting"
+      log_out: "Log out"
     footer:
       param: '<small>The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorials</a>
       by <a href="http://www.michaelhartl.com/">Michael Hartl</a></small>'
@@ -57,3 +63,11 @@ en:
   shared:
     error_messages:
       param_1: "The form contains"
+      create_accout: "Create accout"
+  sessions:
+    form:
+      log_in: "Log in"
+    new:
+      log_in: "Log in"
+      sign_up: "Sign up"
+      new_user: "New user?"

@@ -6,11 +6,11 @@ ruby "2.5.3"
 gem "bcrypt"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-sass", "3.3.7"
-gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", "~> 1.9", ">= 1.9.3"
 gem "i18n"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.2"
 gem "rubocop", "~> 0.54.0", require: false
