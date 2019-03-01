@@ -71,3 +71,4 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
     form:
       log_in: "Đăng nhập"
+      remember: "Ghi nhớ đăng nhập"
