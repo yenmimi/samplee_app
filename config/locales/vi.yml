@@ -75,6 +75,12 @@ vi:
       title: "Tất cả người dùng"
     show:
       micro: "Bài đăng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      view_my_profile: "Xem trang cá nhân"
   shared:
     error_messages:
       param_1: "Biểu mẫu có chứa"
