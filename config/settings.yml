@@ -6,3 +6,9 @@ user_gravatar:
   size: 80
 paging:
   per: 10
+micropost_validates:
+  max_leght_content: 150
+  five: 5
+img:
+  height: 400
+  width: 400

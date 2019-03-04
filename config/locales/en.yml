@@ -73,10 +73,18 @@ en:
       user_delete: "Delete"
     index:
       title: "All user"
+    show:
+      micro: "Micropost"
   shared:
     error_messages:
       param_1: "The form contains"
       create_accout: "Create accout"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      my_profile: "View my profile"
   sessions:
     form:
       remember: "Remember me on this computer"
@@ -85,3 +93,6 @@ en:
       log_in: "Log in"
       sign_up: "Sign up"
       new_user: "New user?"
+  microposts:
+    micropost:
+      sure: "You sure?"
