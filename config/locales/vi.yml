@@ -3,6 +3,9 @@ vi:
   success: "Tạo tài khoản thành công"
   page_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   danger: "Email/mật khẩu không hợp lệ"
+  need_login: "Bạn cần phải login"
+  user_delete: "Xóa thành công"
+  success_edit: "Sửa thành công"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
@@ -60,6 +63,16 @@ vi:
     form:
       create_accout: "Tạo tài khoản"
       confirm: "Xác nhận Password"
+    form_edit:
+      edit_accout: "Sửa thông tin"
+      change: "Thay đổi"
+    edit:
+      title: "Sửa thông tin"
+    user:
+      user_confirm: "bạn có muốn xóa tài khoản này ko?"
+      user_delete: "Xóa"
+    index:
+      title: "Tất cả người dùng"
   shared:
     error_messages:
       param_1: "Biểu mẫu có chứa"

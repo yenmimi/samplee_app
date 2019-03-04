@@ -9,7 +9,9 @@ class User < ApplicationRecord
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-            length: {minimum: Settings.user_validates.min_leght_pass}
+            length: {minimum: Settings.user_validates.min_leght_pass}, allow_nil: true
+
+  scope :oder_user,-> {order name: :asc}
 
   has_secure_password
 
@@ -33,6 +35,10 @@ class User < ApplicationRecord
   def authenticated? remember_token
     return false unless remember_digest
     BCrypt::Password.new(remember_digest).is_password? remember_token
+  end
+
+  def current_user? user
+    self == user
   end
 
   def forget

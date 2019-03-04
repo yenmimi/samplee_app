@@ -4,3 +4,5 @@ user_validates:
   max_leght_email: 255
 user_gravatar:
   size: 80
+paging:
+  per: 10
