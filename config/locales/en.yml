@@ -3,6 +3,9 @@ en:
   success: "Welcome to Sample App"
   page_title: "Ruby on Rails Tutorial Sample App"
   danger: "Invalid email/password combination"
+  need_login: "Please log in"
+  user_delete: "User deleted"
+  success_edit: "Edit success"
   layouts:
     application:
       title_page: "Sample APP"
@@ -60,6 +63,16 @@ en:
     form:
       create_accout: "Create accout"
       confirm: "Confirmation Password"
+    form_edit:
+      edit_accout: "Edit accout"
+      change: "Change"
+    edit:
+      title: "Edit Profile"
+    user:
+      user_confirm: "Do you want to delete this account?"
+      user_delete: "Delete"
+    index:
+      title: "All user"
   shared:
     error_messages:
       param_1: "The form contains"
