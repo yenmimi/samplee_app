@@ -73,10 +73,18 @@ vi:
       user_delete: "Xóa"
     index:
       title: "Tất cả người dùng"
+    show:
+      micro: "Bài đăng"
   shared:
     error_messages:
       param_1: "Biểu mẫu có chứa"
       create_accout: "Tạo tài khoản"
+    micropost_form:
+      compose_new_micropost: "Hôm nay mày thấy thế nào??"
+      post: "Đăng"
+      alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    user_info:
+      my_profile: "Xem trang cá nhân"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -85,3 +93,6 @@ vi:
     form:
       log_in: "Đăng nhập"
       remember: "Ghi nhớ đăng nhập"
+  microposts:
+    micropost:
+      sure: "Bạn có chắc chắn xóa?"

@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   attr_accessor :remember_token
+  has_many :microposts, dependent: :destroy
 
   validates :name, presence: true,
             length: {maximum: Settings.user_validates.max_leght_name}
@@ -9,9 +10,10 @@ class User < ApplicationRecord
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-            length: {minimum: Settings.user_validates.min_leght_pass}, allow_nil: true
+            length: {minimum: Settings.user_validates.min_leght_pass},
+            allow_nil: true
 
-  scope :oder_user,-> {order name: :asc}
+  scope :oder_user, ->{order name: :asc}
 
   has_secure_password
 
@@ -43,6 +45,10 @@ class User < ApplicationRecord
 
   def forget
     update remember_digest: nil
+  end
+
+  def feed
+    microposts
   end
 
   private
