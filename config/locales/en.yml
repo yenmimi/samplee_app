@@ -75,6 +75,12 @@ en:
       title: "All user"
     show:
       micro: "Micropost"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "View my profile"
   shared:
     error_messages:
       param_1: "The form contains"

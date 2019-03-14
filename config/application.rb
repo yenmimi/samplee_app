@@ -25,5 +25,6 @@ module SampleApp
     config.i18n.available_locales = [:en, :vi]
     config.i18n.default_locale = :vi
     config.generators.system_tests = nil
+    config.action_view.embed_authenticity_token_in_remote_forms = true
   end
 end
