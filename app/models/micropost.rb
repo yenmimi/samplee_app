@@ -2,6 +2,7 @@ class Micropost < ApplicationRecord
   belongs_to :user
 
   scope :order_time, ->{order created_at: :desc}
+  scope :following_microposts, ->(following, id_user){where "user_id IN (?) OR user_id = ?", following.to_s, id_user.to_s}
 
   mount_uploader :picture, PictureUploader
 
