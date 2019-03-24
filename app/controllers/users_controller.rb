@@ -25,6 +25,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @follow_user = current_user.active_relationships.build
+    @unfollow_user = current_user.active_relationships.find_by(followed_id: @user.id)
     @microposts = @user.microposts.page(params[:page]).per Settings.paging.per
   end
 
